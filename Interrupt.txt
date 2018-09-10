@@ -1,0 +1,8 @@
+An interrupt is a signal, indicating an event that must be
+executed immediately, from a program which causes the operating system to stop any running
+processes in order to handle the event sent by the signal. After the interrupt event has been handled the
+program will continue running where it left off .
+A callback is a function which can be passed as an argument to another function. This can be used to
+enforce an order of operations in a program. Threading allows the program to execute other code while
+waiting for another event to complete. A threaded callback occurs when a callback function is run in a
+second thread while the main function continues to run.
