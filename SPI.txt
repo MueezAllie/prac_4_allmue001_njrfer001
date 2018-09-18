@@ -1,0 +1,6 @@
+An SPI is a serial synchronous type of communication which allows 2 devices to synchronise the
+exchange of data through a common clock signal. In the timing diagram below it can be seen that the
+clock is an oscillating signal. The clock tells the receiver when to sample the received signal. The
+received signal is either sampled on the rising edge or falling edge of the clock. In this case, it can be
+seen that, the signal is sampled on the rising edge of the clock. When this edge is detected by the
+receiver the data line is read to determine the next bit.
